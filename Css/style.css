@@ -44,3 +44,24 @@
     display: flex;
     gap: 3vw;
 }
+
+.under-header-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 7vw ;
+    margin-right: 7vw ;
+}
+
+.Category-Section {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 24px;
+}
+
+.Search-Section {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 24px;
+}

@@ -47,7 +47,7 @@
 
 .under-header-container{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     gap: 20px;
     padding: 10px;
     margin-left: 7vw ;
@@ -67,17 +67,134 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 24px;
+    background-image: url("../Photos/Search-Section-Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:  'Poppins-Regular', sans-serif;
 }
 
 .Property-Category h4{
     font-size: 16px;
 }
 
-.Property-Property label{
-    font-size: 100px;
-}
-
 .Category-Section label {
     display: block;
     margin-bottom: 8px;
+}
+
+.Search-Section h2{
+    display: flex;
+    font-size: 48px;
+    Justify-Content: center;
+}
+
+.Search-Section h6{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: -1vh;
+    font-size: 16px;
+}
+
+.Trending-Ads-Container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2px 16px;
+    width: 85%;
+    margin-top: 2vh;
+    margin-left: 6.5vw ;
+    margin-right: 7vw;
+}
+
+.card {
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+
+}
+
+.card h5{
+    font-family:  'Poppins-Regular', sans-serif;
+    font-size: 16px;
+}
+
+.card h6{
+    font-family:  'Poppins-Regular', sans-serif;
+    font-size: 14px;
+    margin-top: -2vh;
+    font-weight: 400;
+    opacity: 40%;
+}
+
+.card h3{
+    text-align: Right ;
+}
+
+.price {
+    font-family: 'Poppins-Regular', sans-serif;
+    color: #29B24E;
+    font-size: 24px;
+}
+
+.month {
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.Badge{
+    position: absolute;
+    bottom: -15px;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Image {
+    width: 100%;
+    max-height: 20vh;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.top-left {
+    font-family: 'Poppins-Regular', sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #29B24E;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.Divider{
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid #CFEAD6;
+    height: 0;
+}
+
+.House-Specs {
+    font-family: 'Poppins-Regular', sans-serif;
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    font-size: 14px;
 }

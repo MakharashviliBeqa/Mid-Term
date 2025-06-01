@@ -116,6 +116,12 @@
 
 }
 
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .card h5{
     font-family:  'Poppins-Regular', sans-serif;
     font-size: 16px;

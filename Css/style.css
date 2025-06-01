@@ -96,6 +96,22 @@ input[type="text"] {
     opacity: 50%;
 }
 
+.dropdown-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-button{
+    padding: 15px 20px;
+    border: 1px solid #0D9CA436;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 18vw;
+    background-color: white;
+    text-align: left;
+}
+
 .Property-Category h4{
     font-size: 16px;
 }

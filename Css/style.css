@@ -91,18 +91,9 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 10px;
     font-size: 14px;
-    width: 15vw;
+    width: 14vw;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     opacity: 50%;
-}
-
-.search-bar-container .search-icon {
-    position: absolute;
-    left: 10px;
-    width: 16px;
-    height: 16px;
-    pointer-events: none;
-    padding-left: 77vh;
 }
 
 .Property-Category h4{

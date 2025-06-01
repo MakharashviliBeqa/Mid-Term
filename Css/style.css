@@ -63,6 +63,10 @@
     font-family: 'Poppins-Regular', sans-serif;
 }
 
+.Search-Section h6{
+    opacity: 80%;
+}
+
 .Search-Section {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     padding: 10px;
@@ -72,6 +76,33 @@
     background-position: center;
     background-repeat: no-repeat;
     font-family:  'Poppins-Regular', sans-serif;
+}
+
+.search-bar-container {
+    margin-top: -2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+input[type="text"] {
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 15vw;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    opacity: 50%;
+}
+
+.search-bar-container .search-icon {
+    position: absolute;
+    left: 10px;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    padding-left: 77vh;
 }
 
 .Property-Category h4{

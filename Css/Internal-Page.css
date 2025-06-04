@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size:  14px;
+    font-weight: 400;
+    margin-top: 5vh;
+    margin-left: 7.29vw ;
+    margin-right: 7.29vw ;
+}
+
+.navbar-wrapper a{
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+}
+
+.navbar-wrapper ul a {
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.navbar-wrapper ul a:hover {
+    border-bottom-color: #29B24E;
+}
+
+.Sell-button{
+    color: white !important;
+    opacity: 1;
+    background-color: #29B24E;
+    padding: 13px 26px;
+    border-radius: 12px;
+}
+
+.navbar-wrapper img{
+    width: 48px;
+    height: 48px;
+}
+
+.navbar-wrapper ul{
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+}

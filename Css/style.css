@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 .navbar-wrapper{
     display: flex;
     align-items: center;
@@ -53,6 +59,7 @@
     margin-left: 7vw ;
     margin-right: 7vw ;
     margin-top: 2vh;
+    justify-content: space-between;
 }
 
 .Category-Section {
@@ -100,6 +107,12 @@ input[type="text"] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Trending-Ads-Title h4{
+    font-family: 'Poppins-Regular', sans-serif;
+    margin-left: 7.5vw ;
+    font-size:  18px;
 }
 
 .drop-button{
@@ -211,6 +224,7 @@ input[type="text"] {
     display: block;
 }
 
+
 .image-wrapper {
     position: relative;
     width: 100%;
@@ -241,4 +255,104 @@ input[type="text"] {
     gap: 3vw;
     justify-content: center;
     font-size: 14px;
+}
+
+footer.footer-container {
+    margin-top: 8vh;
+    background-color: #29B24E;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vh;
+    padding-left: 5vw ;
+    padding-right: 5vw ;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: white;
+    font-family:  'Poppins-Regular', sans-serif;
+    font-size: 14px;
+}
+
+.footer-section.center {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-bottom-line {
+    width: 100%;
+    height: 1px;
+    background-color: #D0D0D0;
+    margin: 20px 0 10px 0;
+}
+
+.Copyright {
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+        color: white;
+        margin-bottom: 15px;
+        padding-top: 2vh;
+        padding-left: 3.5vw ;
+        font-family:  'Poppins-Regular', sans-serif;
+}
+
+@media (min-width: 100px) and (max-width: 1024px) {
+    .navbar-wrapper ul,
+    .Sell-button,
+    .search-bar-container{
+        display: none;
+    }
+
+    .Search-Section h2,h6{
+        font-size: 24px;
+        justify-content: center;
+        text-align:  center ;
+    }
+
+    .under-header-container {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .Search-Section {
+        width: 95%;
+        order: 1;
+        max-height: 50vh;
+        min-height: 40vh;
+        margin: 0;
+    }
+    .Category-Section {
+        order: 2;
+        margin: 0;
+        width: 100%;
+    }
+
+    .drop-button{
+        width: 90%;
+    }
+
+    .Trending-Ads-Container {
+        grid-template-columns: 1fr;
+    }
+
+    .logo{
+        margin-bottom: 2vh ;
+    }
+
 }

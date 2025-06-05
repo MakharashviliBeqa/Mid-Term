@@ -330,12 +330,17 @@ footer.footer-container {
     }
 
     .Search-Section {
-        width: 95%;
+        width: 80vw;
         order: 1;
         max-height: 50vh;
         min-height: 40vh;
-        margin: 0;
+        margin-right: 4vw;
     }
+
+    .Email{
+        display: none;
+    }
+
     .Category-Section {
         order: 2;
         margin: 0;
@@ -352,5 +357,9 @@ footer.footer-container {
 
     .logo{
         margin-bottom: 2vh ;
+    }
+
+    .card{
+        margin-right: 4vw;
     }
 }

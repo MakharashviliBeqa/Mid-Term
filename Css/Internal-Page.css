@@ -405,3 +405,37 @@ footer.footer-container {
     padding-top: 2vh;
     font-family:  'Poppins-Regular', sans-serif;
 }
+
+@media (min-width: 100px) and (max-width: 1024px) {
+    .navbar-wrapper {
+        display: none;
+    }
+
+    .About-Building-Container {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px;
+        padding: 10px;
+        margin-left: -2.5vw;
+        margin-right: 2vw;
+        width: 100%;
+    }
+
+    .Building-Photo {
+        height: 300px;
+        margin-right: 4vw;
+        margin-left: 4vw;
+    }
+
+    .Similiar-Ads-Container .card-link:not(:first-child) {
+        display: none;
+    }
+
+    .Similiar-Ads-Container .card-link:first-child {
+        width: 80vw;
+    }
+
+    .Email {
+        display: none;
+    }
+}

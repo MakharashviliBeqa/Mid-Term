@@ -337,6 +337,10 @@ footer.footer-container {
         margin-right: 4vw;
     }
 
+    .Location-Category {
+        margin-right: 6vw;
+    }
+
     .Email{
         display: none;
     }
@@ -360,6 +364,6 @@ footer.footer-container {
     }
 
     .card{
-        margin-right: 4vw;
+        margin-right: 6vw;
     }
 }

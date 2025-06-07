@@ -417,6 +417,10 @@ h3 .price {
     font-family:  'Poppins-Regular', sans-serif;
 }
 
+.Mobile-Bottom-Nav-bar{
+    display: none;
+}
+
 @media (min-width: 100px) and (max-width: 1024px) {
     .navbar-wrapper {
         display: none;
@@ -472,5 +476,49 @@ h3 .price {
 
     .Email {
         display: none;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 15px 30px;
+        position: relative;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: none;
+        padding-top: 3vh;
+    }
+
+    .footer-section a {
+        font-size:  16px;
+    }
+
+    .footer-section ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-section ul li {
+        margin: 5px 0;
+    }
+
+    .footer-bottom-line,
+    .Copyright {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    .footer-section:nth-of-type(3) {
+        justify-self: end;
+        text-align: right;
     }
 }

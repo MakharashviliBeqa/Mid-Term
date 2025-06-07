@@ -366,4 +366,55 @@ footer.footer-container {
     .card{
         margin-right: 6vw;
     }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 15px 30px;
+        position: relative;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: none;
+        padding-top: 3vh;
+    }
+
+    .footer-section a {
+        font-size:  16px;
+    }
+
+    .footer-section ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-section ul li {
+        margin: 5px 0;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        gap: 10px 50px;
+    }
+
+    .footer-bottom-line,
+    .Copyright {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    .footer-section:nth-of-type(3) {
+        justify-self: end;
+        text-align: right;
+    }
 }

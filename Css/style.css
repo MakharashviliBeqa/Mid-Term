@@ -311,6 +311,10 @@ footer.footer-container {
         font-family:  'Poppins-Regular', sans-serif;
 }
 
+.Mobile-Bottom-Nav-bar{
+    display: none;
+}
+
 @media (min-width: 100px) and (max-width: 1024px) {
     .navbar-wrapper ul,
     .Sell-button,
@@ -427,5 +431,59 @@ footer.footer-container {
     .footer-section:nth-of-type(3) {
         justify-self: end;
         text-align: right;
+    }
+
+    .Mobile-Bottom-Nav-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        padding: 12px 20px;
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    .Mobile-Bottom-Nav-bar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 7vw;
+    }
+
+    .Mobile-Bottom-Nav-bar li {
+        display: flex;
+    }
+
+    .Mobile-Bottom-Nav-bar li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-family:  'Poppins-Regular', sans-serif;
+    }
+
+    .Mobile-Bottom-Nav-bar{
+        display: block;
+    }
+
+    .Mobile-Bottom-Nav-bar li img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .Sell-Mobile-Button-Image {
+        background-color: #29B24E;
+        border-radius: 12px;
+        padding: 4vw 4vw;
+        margin-top: -2.5vh;
     }
 }
